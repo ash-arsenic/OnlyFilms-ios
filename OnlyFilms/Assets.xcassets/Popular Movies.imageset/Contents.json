@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "kicking-off-phase-5-of-the-marvel-cinematic-universe-the-fast-paced-big-screen-adventure-ant-man-and-the-wasp-quantumania-features-mcus-most-powerful-villain-to-date-kang-the-conquer-01.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "kicking-off-phase-5-of-the-marvel-cinematic-universe-the-fast-paced-big-screen-adventure-ant-man-and-the-wasp-quantumania-features-mcus-most-powerful-villain-to-date-kang-the-conquer-01 1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "kicking-off-phase-5-of-the-marvel-cinematic-universe-the-fast-paced-big-screen-adventure-ant-man-and-the-wasp-quantumania-features-mcus-most-powerful-villain-to-date-kang-the-conquer-01 2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
