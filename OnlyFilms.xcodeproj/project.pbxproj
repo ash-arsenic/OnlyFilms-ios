@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50C6022298F8F8C00C4F7CF /* MovieDetailsPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50C6021298F8F8C00C4F7CF /* MovieDetailsPopup.swift */; };
+		C50C6024298F8FC400C4F7CF /* MovieDetailsPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50C6023298F8FC400C4F7CF /* MovieDetailsPopup.xib */; };
 		C50F5905298E217600CA1010 /* ShowMoviesVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50F5903298E217600CA1010 /* ShowMoviesVCViewController.swift */; };
 		C50F5908298E265700CA1010 /* MoviePoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50F5907298E265700CA1010 /* MoviePoster.swift */; };
 		C50F590A298E2DA900CA1010 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50F5909298E2DA900CA1010 /* MovieCell.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50C6021298F8F8C00C4F7CF /* MovieDetailsPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsPopup.swift; sourceTree = "<group>"; };
+		C50C6023298F8FC400C4F7CF /* MovieDetailsPopup.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailsPopup.xib; sourceTree = "<group>"; };
 		C50F5903298E217600CA1010 /* ShowMoviesVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMoviesVCViewController.swift; sourceTree = "<group>"; };
 		C50F5907298E265700CA1010 /* MoviePoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePoster.swift; sourceTree = "<group>"; };
 		C50F5909298E2DA900CA1010 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				C59EA580298E13D100F16AB8 /* ViewController.swift */,
 				C50F590D298E583900CA1010 /* MovieModel.swift */,
 				C59EA582298E13D100F16AB8 /* Main.storyboard */,
+				C50C6021298F8F8C00C4F7CF /* MovieDetailsPopup.swift */,
+				C50C6023298F8FC400C4F7CF /* MovieDetailsPopup.xib */,
 				C50F5909298E2DA900CA1010 /* MovieCell.swift */,
 				C50F5903298E217600CA1010 /* ShowMoviesVCViewController.swift */,
 				C59EA585298E13D300F16AB8 /* Assets.xcassets */,
@@ -140,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50C6024298F8FC400C4F7CF /* MovieDetailsPopup.xib in Resources */,
 				C59EA589298E13D300F16AB8 /* LaunchScreen.storyboard in Resources */,
 				C59EA586298E13D300F16AB8 /* Assets.xcassets in Resources */,
 				C59EA584298E13D100F16AB8 /* Main.storyboard in Resources */,
@@ -159,6 +166,7 @@
 				C50F590C298E422300CA1010 /* NetworkManager.swift in Sources */,
 				C50F590E298E583900CA1010 /* MovieModel.swift in Sources */,
 				C59EA57D298E13D100F16AB8 /* AppDelegate.swift in Sources */,
+				C50C6022298F8F8C00C4F7CF /* MovieDetailsPopup.swift in Sources */,
 				C50F5905298E217600CA1010 /* ShowMoviesVCViewController.swift in Sources */,
 				C59EA57F298E13D100F16AB8 /* SceneDelegate.swift in Sources */,
 			);

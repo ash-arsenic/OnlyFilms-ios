@@ -1,1 +1,5 @@
-Learned basic UI components, navigation controller, UITableView, API, PopUp
+UI Component
+Navigation Controller
+API
+Custom popup
+UITableView Custom cell

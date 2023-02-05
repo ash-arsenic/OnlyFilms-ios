@@ -4,7 +4,7 @@ class ShowMoviesVCViewController: UIViewController, UITableViewDelegate, UITable
     
 //    Vars
     @IBOutlet weak var moviesTV: UITableView!
-   
+    var movie: MovieDetailsPopup?
     var movies: [MovieModel]?
     let baseImageUrl = "https://image.tmdb.org/t/p/w500"
 //    Functions
@@ -12,6 +12,7 @@ class ShowMoviesVCViewController: UIViewController, UITableViewDelegate, UITable
         super.viewDidLoad()
         moviesTV.delegate = self
         moviesTV.dataSource = self
+        movie = MovieDetailsPopup()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -34,5 +35,11 @@ class ShowMoviesVCViewController: UIViewController, UITableViewDelegate, UITable
             }
         }
         return cell!
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        movie?.showDetails(imagePath: movies?[indexPath.row].backdropPath, movieTitle: movies?[indexPath.row].title, movieDesc: movies?[indexPath.row].overview)
+//        let popup = PopUpView()
+//        popup.showAlert(title: "hellloo", description: "day 2", type: .singleButton, caller: .second)
     }
 }
